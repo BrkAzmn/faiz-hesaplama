@@ -5,7 +5,6 @@ from fetch_prices import get_gold_price, get_silver_price
 
 app = FastAPI()
 
-# CORS Middleware ekleyelim
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],  
